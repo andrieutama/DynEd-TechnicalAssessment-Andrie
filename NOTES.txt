@@ -1,0 +1,7 @@
+basic CSS menggunakan bootsrap
+
+CSS tambahan :
+1. custom.css
+1.sidebar.css
+
+basic js menggunakan boostrap dan jquery-1.12.3.js
