@@ -1,0 +1,45 @@
+aplikasi QUiz Uploader, adalah aplikasi untuk mengirim jawaban quiz yang diberikan oleh pak rodin.
+
+siswa memasukkan jawaban, dengan terlebih dahulu login dengan memasukan NIM dan kode unik yang diberikan pak rodin
+
+siswa memasukkan jawaban quiz dan mensubmitnya ke server untuk dihitung nilainya
+
+===========================================================================================================================
+
+aplikasi QUiz Uploader juga dapat digunakan pak rodin untuk melihat data nilai seluruh siswa yang sudah
+mengirimkan jawabannya.
+
+pak rodin dapat melihat
+-jumlah yang mengikuti quiz
+-siapa yang sudah mengirim jawaban
+-rata rata nilai
+-nilai tertinggi dan siswa yang dapat nilai tertinggi
+-nilai terendah dan siswa yang dapat nilai terendah
+-standar deviasi nilai
+
+===========================================================================================================================
+
+data siswa, NIM, kode unik, masih harus diinput manual melalui database (belum ada dashboard)
+
+data siswa yang sudah ada  sebagai data dummy adalah sebagai berikut
+
+Andrie -> NIM = 7193 -> Kode Unik = abcd (sudah mengirim jawaban)
+Samsul -> NIM = 1111 -> Kode Unik = 1111 (sudah mengirim jawaban)
+Utama -> NIM = 2222 -> Kode Unik = 2222 (sudah mengirim jawaban)
+Arifin -> NIM = 3333 -> Kode Unik = 3333 (belum mengirim jawaban) (bisa untuk testing)
+
+===========================================================================================================================
+
+pak rodin juga harus login dengan NIP dan kode unik untuk melihat rekap data nilai quiz siswanya
+
+NIP dan Kode Unik pak rodin adalah :
+NIP -> Rodin
+Kode Unik -> 1234
+
+===========================================================================================================================
+
+database menggunakan phpmyadmin dengan nama database soal2, isi database sudah dilampirkan dengan nama soal2.sql
+
+assets pada aplikasi soal2 didapat dari hasil pekerjaan sebelumnya
+
+file yang dikerjakan sendiri index.php, home.php, upload.php dan seluruh file di dalam folder assets/action
